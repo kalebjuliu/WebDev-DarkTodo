@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #0d202d;
+}
+
+/*Centering the todo*/
+.todo-background{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Background of the todo */
+.wrapper{
+  width: 40%;
+  background-color: #283643;
+  box-shadow: 7px 6px 32px -7px rgba(0,0,0,0.33);
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+/*Styling the todo title */
+.title{
+  font-family: 'Poppins';
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/*Styling the ul and li components*/
+.todo-ul{
+  padding-top: 20px;
+}
+.list-group-item{
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+}
+.todo{
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+.time{
+  font-family: 'Poppins';
+  font-size: 12px;
+  opacity: 0.3;
+}
+.doneBtn{
+  width: 32px;
+  height: 32px;
+  margin-right: 20px;
+  border: 2px solid #ffffff4d;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.doneBtn:hover{
+  background-color: white;
+}
+
+
+/*Styling the form/ input box and addBtn*/
+form{
+  padding-bottom: 20px;
+  position: relative;
+}
+.input{
+  background: none;
+  border: none;
+  width: 95%;
+  border-bottom: 2px solid white;
+  color: gray;
+  padding: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 15px;
+}
+.submit{
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
